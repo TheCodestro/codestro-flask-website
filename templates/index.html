@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% set active_page = "index" %}
+{% block title %}Premier{% endblock %}
+
+{% block pageHeader %}
+<ol class="breadcrumb">
+<li class="active">Home</li>
+</ol>
+{% endblock %}
+{% block pageBody %}
+<div class="jumbotron">
+<h1>Hello World!</h1>
+<p>You are using {{ theAgent }}</p>
+</div>
+{% endblock %}
