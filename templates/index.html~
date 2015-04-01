@@ -2,13 +2,8 @@
 {% block title %}Premier{% endblock %}
 
 {% block pageHeader %}
-<ol class="breadcrumb">
-<li class="active">Home</li>
-</ol>
-{% endblock %}
+    <h1>Hello World!</h1>
+   {% endblock %}
 {% block pageBody %}
-<div class="jumbotron">
-<h1>Hello World!</h1>
-<p>You are using {{ theAgent }}</p>
-</div>
+  <h2>You are using {{ theAgent }}</h2>
 {% endblock %}
